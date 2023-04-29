@@ -1,3 +1,24 @@
-# E-Mail-Spoofer
+Email-Spoofer
+-------------
 
-Replace the necessary fields such as "spoofedemail@gmail.com", "recipient1@example.com", "recipient2@example.com", "This is a spoofed email", "Hello", "this email was sent from a fake address!", "yourlogin@gmail.com", "yourpassword", and "smtp.gmail.com:587" with the desired values.
+With this one, its probably more reliable than the other one, but you have to do more work because you have to replace the following variables.
+
+"spoofedemail@gmail.com" with the email you want to spoof
+
+"recipient1@example.com",(more recipients if wanted seperated by commas) with the recipients you want
+
+"This is a spoofed email" with the subject
+
+"Hello", "this email was sent from a fake address!" with the message
+
+"yourlogin@gmail.com" with your email
+
+"yourpassword" with the password to the email you entered
+
+"smtp.gmail.com:587" with the smtp server.
+
+
+Easy-Email-Spoofer
+------------------
+
+This one is in the name because it's easier to spoof email with it as it takes in user input.
