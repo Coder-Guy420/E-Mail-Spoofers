@@ -39,7 +39,7 @@ def send_email(from_addr, to_addr_list, cc_addr_list,
     smtpserver.sendmail(from_addr, to_addr_list, msg.as_string())
     smtpserver.quit()
 
-from_addr = get_valid_email("Enter the email address that you want to spoof: ")
+from_addr = input("Enter the email address that you want to spoof: ")
 to_addr_list = input("Enter the recipient email addresse(s) separated by commas: ").split(',')
 cc_addr_list = input("Enter the CC email addresse(s) separated by commas: ").split(',')
 subject = input("Enter the email subject: ")
