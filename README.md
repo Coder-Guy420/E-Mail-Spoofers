@@ -22,3 +22,8 @@ Easy-Email-Spoofer
 ------------------
 
 This one is in the name because it's easier to spoof email with it as it takes in user input.
+
+V2
+--
+
+v2 has a new function which checks if the email entered is a valid email, and if it isnt a real email than it asks for the email again. Easy-Email-Spoofer is probably more reliable I just put this in here as a test
