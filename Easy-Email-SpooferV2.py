@@ -26,7 +26,12 @@ def send_email(from_addr, to_addr_list, cc_addr_list,
 
     msg = MIMEMultipart()
     msg['From'] = from_addr
-    msg['To'] = COMMASPACE.join(to_addr_list)
+    
+    if len(to_addr_list) == 1:
+        msg['To'] = to_addr_list[0]
+    else:
+        msg['To'] = COMMASPACE.join(to_addr_list)
+    
     msg['Cc'] = COMMASPACE.join(cc_addr_list)
     msg['Subject'] = subject
 
